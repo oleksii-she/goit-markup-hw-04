@@ -24,21 +24,31 @@
     <header class="header">
       <div class="conteiner menu">
         <a href="./index.html" lang="en" class="logo">Web<span class="logo-color">Studio</span></a>
-        <nav>
+        <nav class="">
           <ul class="menu-list">
             <li class="menu-item"><a href="./index.html" class="menu-nav">Студия</a></li>
             <li class="menu-item">
-              <a href="./portfolio.html" class="menu-nav">Портфолио</a>
+              <a class="menu-nav" href="./portfolio.html">Портфолио</a>
             </li>
             <li class="menu-item"><a href="./" class="menu-nav">Контакты</a></li>
           </ul>
         </nav>
         <ul class="contacts-list">
           <li class="contacts-item">
-            <a href="mailto:info@devstudio.com" class="contacts">info@devstudio.com</a>
+            <a class="contacts" href="mailto:info@devstudio.com"
+              ><svg class="contacts-icon" width="16" height="12">
+                <use href="./images/icon.svg#icon-mail "></use>
+              </svg>
+              info@devstudio.com</a
+            >
           </li>
           <li class="contacts-item">
-            <a href="tel:+380961111111" class="contacts">+38 096 111 11 11</a>
+            <a class="contacts" href="tel:+380961111111"
+              ><svg class="contacts-icon" width="10" height="16">
+                <use href="./images/icon.svg#icon-phone"></use>
+              </svg>
+              +38 096 111 11 11</a
+            >
           </li>
         </ul>
       </div>
@@ -138,25 +148,62 @@
       </section>
     </main>
     <footer class="footer">
-      <div class="conteiner">
-        <a href="./index.html" lang="en" class="logo"
-          >Web<span class="logo-color-footer">Studio</span></a
-        >
-        <address class="address">
-          <ul class="address-list">
-            <li class="address-item">
-              <a href="https://goo.gl/maps/XwQu5pEPLGbrW69v8" target="_blank" class="location">
-                г. Киев, пр-т Леси Украинки, 26</a
-              >
+      <div class="conteiner footer-content">
+        <div class="footer-address-content">
+          <a href="./index.html" lang="en" class="logo"
+            >Web<span class="logo-color-footer">Studio</span></a
+          >
+
+          <address class="address">
+            <ul class="address-list">
+              <li class="address-item">
+                <a href="https://goo.gl/maps/XwQu5pEPLGbrW69v8" target="_blank" class="location">
+                  г. Киев, пр-т Леси Украинки, 26</a
+                >
+              </li>
+              <li class="address-item">
+                <a href="mailto:info@example.com" class="contacts-footer">info@example.com</a>
+              </li>
+              <li class="address-item">
+                <a href="tel:+380991111111" class="contacts-footer">+38 099 111 11 11</a>
+              </li>
+            </ul>
+          </address>
+        </div>
+
+        <div class="join">
+          <h2 class="join-title">присоединяйтесь</h2>
+          <ul class="join-list">
+            <li class="join-item">
+              <a href="./" class="join-link"
+                ><svg class="join-icon">
+                  <use href="./images/icon.svg#icon-instagram"></use>
+                </svg>
+              </a>
             </li>
-            <li class="address-item">
-              <a href="mailto:info@example.com" class="contacts-footer">info@example.com</a>
+            <li class="join-item">
+              <a href="./" class="join-link"
+                ><svg class="join-icon">
+                  <use href="./images/icon.svg#icon-twitter"></use>
+                </svg>
+              </a>
             </li>
-            <li class="address-item">
-              <a href="tel:+380991111111" class="contacts-footer">+38 099 111 11 11</a>
+            <li class="join-item">
+              <a href="./" class="join-link"
+                ><svg class="join-icon">
+                  <use href="./images/icon.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="join-item">
+              <a href="./" class="join-link"
+                ><svg class="join-icon">
+                  <use href="./images/icon.svg#icon-linkedin"></use>
+                </svg>
+              </a>
             </li>
           </ul>
-        </address>
+        </div>
       </div>
     </footer>
   </body>
